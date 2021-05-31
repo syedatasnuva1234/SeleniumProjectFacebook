@@ -10,21 +10,21 @@ public class FacebookLoginTest {
 		
 		WebDriver driver = Base.getDriver();
 		
-		 //navigating facebook.com website
+		 // navigating facebook.com website
 		
 		driver.get("http://facebook.com");
 		
-		//maximize browser window
+		// maximize browser window
 		
 		driver.manage().window().maximize();
 		
-		//print the url of the webpage
+		// print the url of the webpage
 		
 		String urlFromWebpage = driver.getCurrentUrl();
 		
 		System.out.println(urlFromWebpage);
 		
- //enter email address in textfield
+ // enter email address in textfield
 		  
  //FIND email address textbox
 		
